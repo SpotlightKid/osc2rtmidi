@@ -1,0 +1,9 @@
+Cython
+flake8
+pycodestyle
+pydocstyle
+#pyliblo
+pytest
+python-rtmidi
+pyyaml
+tox

@@ -55,7 +55,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'osc2midi = osc2midi.main:main [osc2midi]',
+            'osc2rtmidi = osc2rtmidi.main:main',
         ]
     },
     tests_require=['pytest'],

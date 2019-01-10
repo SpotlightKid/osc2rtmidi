@@ -312,11 +312,11 @@ def main(args=None):
     argparser = argparse.ArgumentParser(description=__doc__)
     aadd = argparser.add_argument
     aadd('-p', '--port', dest="midiport",
-         help="MIDI output port (default: ask to open virtual MIDI port).")
+         help="MIDI output port (default: open a virtual MIDI port).")
     aadd('-P', '--osc-recv-port', dest="osc_rport", default=5555, type=int,
          help="Port the OSC server listens on (default: %(default)s).")
     aadd('-c', '--client', dest="osc_shost",
-         help="Hostname of OSC client (default: off.")
+         help="Hostname of OSC client (default: off).")
     aadd('-O', '--osc-send-port', dest="osc_sport", default=9000, type=int,
          help="Port for sending feedback to the OSC client (default: %(default)s).")
     aadd('-v', '--verbose', action="store_true",
